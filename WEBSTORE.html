@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBSTORE</title>
+  <link rel="stylesheet" href="WEBSTORE.css">
+</head>
+
+<body>
+  <div class="bgimage"></div>
+  <nav>
+   
+    <label for="Search">Search</label>
+    <input type="text" id="itemsearch" onkeyup="search()" placeholder="Search product">
+    <label>Choose a filter</label>
+    <select id="FilterDropdown" onchange="getfilter()">
+      <option value="L2H">Low to High</option>
+      <option value="H2L">High to Low</option>
+    </select>
+    <label>Choose a category</label>
+    <select id="categorydropdown" onchange="getcatfilter()">
+      <option value="default ">PLese select</option>
+      <option value="men's clothing">men's clothing</option>
+      <option value="jewelery">jewelery</option>
+      <option value="electronics">electronics</option>
+      <option value="women's clothing">women's clothing</option>
+    </select>
+    <label for="Cart Item"></label>
+    <button  id="num"onclick="window.open(href = '/selected.html')">CART ITEM 0</button>
+  </nav>
+  <div id="data">
+  </div>
+  <script src="WEBSTORE.js"></script>
+</body>
+
+</html>

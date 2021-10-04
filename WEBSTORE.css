@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(250, 243, 184);
+  font-size: 1rem;
+}
+nav {
+  background-color: rgb(232, 179, 243);
+  border-radius: 4rem;
+  border-style: groove;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: rgb(185, 224, 224);
+  border-spacing: 3rem;
+  border-color: rgb(228, 129, 253);
+  white-space: nowrap;
+  padding: 3px 3px;
+}
+div {
+  tab-size: 3rem;
+  font-weight: 900;
+  font-variant: small-caps;
+  white-space: nordata;
+}
+.tab {
+  background-color: rgb(224, 213, 226);
+}
+.nordata {
+  background-color: rgb(206, 224, 188);
+  box-sizing: 2px;
+  border-style: groove;
+  padding: 1rem 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  max-height: 400px;
+}
+
+#data {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  white-space: nowrap;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("jat.jpeg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  visibility: hidden;
+}
