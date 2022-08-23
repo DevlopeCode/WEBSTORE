@@ -1,3 +1,3 @@
 # WEBSTORE
 For live demo:-
-https://prabhatzws.github.io/WEBSTORE/
+https://devlopecode.github.io/WEBSTORE/
